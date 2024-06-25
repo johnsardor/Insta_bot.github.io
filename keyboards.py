@@ -3,7 +3,7 @@ from aiogram.types import InlineKeyboardMarkup, KeyboardButton, WebhookInfo, Rep
 web_app=WebhookInfo(url='https://www.instagram.com/')
 
 app_kb=ReplyKeyboardMarkup(keyboard=[
-    [KeyboardButton(text='Instagram', web_app=web_app)]
+    [KeyboardButton(text='Insta', web_app=web_app)]
 ], resize_keyboard=True)
 
 
